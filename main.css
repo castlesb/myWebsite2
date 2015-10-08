@@ -1,0 +1,84 @@
+.intro-section {
+	height: 500px;
+	background: url('ProfileImage.jpg') no-repeat fixed center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.intro-name {
+	position: absolute; top: 25%; text-align: center; z-index: 99; width: 100%;
+	color: white;
+}
+
+.about-section {
+	background-color: #383838;
+}
+
+.about-section .container-fluid {
+	padding: 50px;
+	color: white;
+}
+
+.about-section .about-header {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #A8A8A8;
+}
+
+.about-section .about-p {
+	color: white;
+}
+
+.resume-section .container-fluid {
+	padding: 50px;
+}
+
+.resume-section h4 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 110%;
+}
+
+
+.resume-section .school, .work {
+	color: #FF5C33;
+}
+
+
+.resume-section .date, .degree {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 85%;
+	color: #686868;
+}
+
+
+.portfolio-section {
+	background-color: #383838;
+}
+
+.portfolio-section .container-fluid {
+	padding: 50px;
+	color: white;
+}
+
+.connect-section {
+	height: 300px;
+	background-color: #181818;
+	color: white;
+	text-align: center;
+}
+
+.connect-section .container-fluid {
+	padding: 50px;
+}
+
+.connect-section .add-me-buttons {
+	padding-top: 100px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: black;
+}
